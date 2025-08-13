@@ -48,34 +48,34 @@ export const desktopConfig = {
       // description: "Interactive Git learning guide",
       // shortcuts: ["Ctrl+G", "F1"],
     },
-    {
-      id: "todo",
-      name: "Todo",
-      icon: "✓",
-      color: "bg-green-500",
-      component: "TodoApp",
-    },
-    {
-      id: "notes",
-      name: "Notes",
-      icon: "📝",
-      color: "bg-yellow-500",
-      component: "NotesApp",
-    },
-    {
-      id: "gallery",
-      name: "Gallery",
-      icon: "🖼️",
-      color: "bg-purple-500",
-      component: "GalleryApp",
-    },
-    {
-      id: "calculator",
-      name: "Calculator",
-      icon: "🧮",
-      color: "bg-orange-500",
-      component: "CalculatorApp",
-    },
+    // {
+    //   id: "todo",
+    //   name: "Todo",
+    //   icon: "✓",
+    //   color: "bg-green-500",
+    //   component: "TodoApp",
+    // },
+    // {
+    //   id: "notes",
+    //   name: "Notes",
+    //   icon: "📝",
+    //   color: "bg-yellow-500",
+    //   component: "NotesApp",
+    // },
+    // {
+    //   id: "gallery",
+    //   name: "Gallery",
+    //   icon: "🖼️",
+    //   color: "bg-purple-500",
+    //   component: "GalleryApp",
+    // },
+    // {
+    //   id: "calculator",
+    //   name: "Calculator",
+    //   icon: "🧮",
+    //   color: "bg-orange-500",
+    //   component: "CalculatorApp",
+    // },
 
     // EXERCISE APPS - Students will uncomment these to create conflicts
     {
