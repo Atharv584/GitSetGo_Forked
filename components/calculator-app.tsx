@@ -8,16 +8,16 @@ const calculatorConfig = {
   // STEP 3: Students will change these settings differently, creating conflicts
   theme: "default", // "default" | "scientific" | "programmer" | "colorful"
   precision: 10, // Different students prefer different precision
-  showHistory: false, // STEP 3: Some students will want true
+  showHistory: true, // STEP 3: Some students will want true
   playSound: false, // STEP 3: Some students will want true
   buttonStyle: "rounded", // "rounded" | "square" | "circular"
 
   // STEP 5: Advanced preferences - uncomment and customize these
-  // displayMode: "standard", // "standard" | "scientific" | "engineering"
-  // memorySlots: 3, // How many memory slots (M1, M2, M3)
-  // autoSave: true, // Save calculations between sessions
-  // keyboardShortcuts: true, // Enable keyboard input
-  // animations: true, // Button press animations
+  displayMode: "standard", // "standard" | "scientific" | "engineering"
+  memorySlots: 3, // How many memory slots (M1, M2, M3)
+  autoSave: true, // Save calculations between sessions
+  keyboardShortcuts: true, // Enable keyboard input
+  animations: true, // Button press animations
 
   // STEP 3: Students will add their own custom functions here
   customFunctions: [
@@ -30,7 +30,7 @@ const calculatorConfig = {
   ],
 
   // STEP 5: Different students will prefer different layouts
-  // layout: "standard", // "standard" | "compact" | "extended" | "scientific"
+  layout: "standard", // "standard" | "compact" | "extended" | "scientific"
 
   // STEP 3: Students customize these colors differently - MAJOR CONFLICT ZONE!
   colors: {
@@ -44,13 +44,13 @@ const calculatorConfig = {
   },
 
   // STEP 5: Advanced theming options - uncomment in Step 5
-  // advancedTheme: {
-  //   gradients: false, // Enable gradient buttons
-  //   shadows: true, // Drop shadows on buttons
-  //   borderRadius: "medium", // "small" | "medium" | "large" | "full"
-  //   fontSize: "normal", // "small" | "normal" | "large"
-  //   buttonSpacing: "normal", // "tight" | "normal" | "loose"
-  // }
+  advancedTheme: {
+    gradients: false, // Enable gradient buttons
+    shadows: true, // Drop shadows on buttons
+    borderRadius: "medium", // "small" | "medium" | "large" | "full"
+    fontSize: "normal", // "small" | "normal" | "large"
+    buttonSpacing: "normal", // "tight" | "normal" | "loose"
+  }
 }
 
 export default function CalculatorApp() {
